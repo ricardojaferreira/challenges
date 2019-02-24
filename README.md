@@ -38,9 +38,9 @@ Running challenge 2:
 > `./challenge02run.sh`
 
 Running challenge 3:
-> `./challenge02createDB.sh`
+> `./challenge03createDB.sh`
 
-> `./challenge02run.sh`
+> `./challenge03run.sh`
 
 Running challenge 4:
 > `./challenge04run.sh`
