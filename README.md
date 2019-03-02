@@ -21,6 +21,40 @@ The Irish National Lottery draw takes place twice weekly on a Wednesday and a Sa
 Write a function or class that calculates and returns the next valid draw date based on the current
 date and time AND also on an optionally supplied date and time.
 
+### 5. A/B Testing
+Create an A/B test for a number of promotional designs to see which provides the best conversion rate.
+Write a snippet of PHP code that redirects end users to the different designs based on the database table below. Extend the database model as needed.
+
+i.e - 50% of people will be shown Design A, 25% shown Design B and 25% shown Design C. The code needs to be scalable as a single promotion may have upwards of 3 designs to test.
+
+<table>
+    <thead>
+    <tr>
+        <th>design_id</th>
+        <th>design_name</th>
+        <th>split_percent</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Design 1</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Design 2</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Design 3</td>
+        <td>25</td>
+    </tr>
+    </tbody>
+</table>
+
+
 ## How to run and test
 
 This set of exercices has a docker, all you need is docker installed and configured on your machine.
@@ -44,4 +78,9 @@ Running challenge 3:
 
 Running challenge 4:
 > `./challenge04run.sh`
+
+Running challenge 5:
+> `./challenge05createDb.sh`
+
+> `./challenge05run.sh`
 
